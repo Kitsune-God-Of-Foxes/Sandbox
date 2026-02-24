@@ -50,7 +50,7 @@ def main() -> None:
       print("PLAYER 1")
     elif P2Score > P1Score:
       print("PLAYER 2")
-    else: print("WAR")
+    else: print("WAR!")
 
 
   
