@@ -1,6 +1,5 @@
 """
-AP Computer Science Principles Sandbox
-This is a repo you can use to store small warm-up problems and try out code.
+this is the answer to the number war problem on codequest by Sebastian Payne
 """
 import sys
 import math
@@ -8,10 +7,10 @@ import string
 
 
 def main() -> None:
-  count = input()
+  count = sys.stdin.readline().rstrip()
   count = int(count)
   for z in range (count):
-    numbers  = str(input())
+    numbers  = str(sys.stdin.readline().rstrip())
     P1num1, P1num2, P1num3, P2num1, P2num2, P2num3 = numbers.split()
     if P1num1 > P1num3 and P1num2 > P1num3:
       if P1num1 > P1num2:
